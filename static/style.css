@@ -131,7 +131,7 @@ section#inicio div#arraste a{
 i.menu-mobile{
     position: fixed;
     color: #ffff;
-    background-color: #01022D;
+    background-color: #03043b;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
@@ -189,5 +189,52 @@ i.menu-mobile{
 }
 
 *::-webkit-scrollbar-thumb{
-    background-color: #050017;
+    background-color: #03043b;
+}
+
+.section-bg{
+    background-color: #eff5ff;
+}
+
+.cv .cv-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+
+.cv .cv-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 3px solid #1f5297;
+    position: relative;
+}
+
+.cv .cv-item h4{
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.cv .cv-item h5{
+    background: #e4edf2;
+    pad: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cv .cv-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #1f5297;
+    background: #fff;
+    border-radius: 50%;
 }
